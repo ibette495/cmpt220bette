@@ -13,6 +13,8 @@ public static void main(String[] args){
 	
 	int answer = input.nextInt();
 			System.out.println(number1 + " + " + number2 + " + " + number3 + " is " + (number1 + number2 + number3 == answer));
+// JA: Last staement should be: 
+// System.out.println(number1 + " + " + number2 + " + " + number3 + " = " + answer + " is " + (number1 + number2 + number3 == answer));
 		
 }
 }

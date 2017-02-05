@@ -14,7 +14,7 @@ public class problem35 {
 		
 		
 		
-		switch (day % 7){
+		switch (day % 7){ // JA: You don't need to use the % operator here because the value should be between 0 and 6
 		case 0: System.out.println("Today is Sunday"); break;
 		case 1: System.out.println("Today is Monday"); break;
 		case 2: System.out.println("Today is Tuesday"); break;

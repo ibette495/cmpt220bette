@@ -5,7 +5,7 @@ public class prob413 {
 		System.out.println("Enter a letter: ");
 		
 		char check = input.next().charAt(0);
-		if(check == 'a' || check == 'e' || check == 'i' || check == 'o' || check == 'u'){
+		if(check == 'a' || check == 'e' || check == 'i' || check == 'o' || check == 'u'){ // JA: What about capital letters? Those are also vowels
 			System.out.println(check + " is a vowel ");
 		}
 		else if ((int)check > 65 && (int)check < 91 || (int)check > 96 && (int)check < 122){
