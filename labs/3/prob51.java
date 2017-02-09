@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 
+// JA: This is not the problem that you needed to resolve.
 public class prob51 {
 
 	public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class prob51 {
 			dataBool = false;
 		}
 		
-		while(dataBool){
+		while(dataBool){ // JA: This creates an infinite loop when dataBool is true. Nothing inside the loop will chage dataBool.
 			if(data % 2 == 1){
 				System.out.print("THIS IS ODD");
 			}
