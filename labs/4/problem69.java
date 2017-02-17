@@ -4,7 +4,7 @@ public class problem69 {
 		System.out.println(
 				"Feet     Meters | Meters     Feet" +
 				"\n----------------------------------------------");
-			for (double feet = 1, meters = 1; feet <= 10; feet++, meters += 5) {
+			for (double feet = 1, meters = 1; feet <= 10; feet++, meters += 5) { // JA: meteres had to start at 20
 				System.out.printf("%4.1f   ", feet);
 				System.out.printf("%6.3f", footToMeter(feet));
 				System.out.print(" | ");

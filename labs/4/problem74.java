@@ -44,7 +44,7 @@ static final int MAX = 100;
 	            total += scores[x];
 	        }
 
-	        return total / numberOfScores;
+	        return total / numberOfScores; // JA: This had to be a non-integer operation
 	    }
 
 	    public static int scoresAboveAndEqualToAverage(int[] scores, int average) {

@@ -7,6 +7,7 @@ public class problem616 {
 		}else{
 			System.out.println(x + " has 365 days!");
 		}
+		// JA: You had to write a loop from 2000 to 2020 and print each year
 	}
 	public static boolean numberOfDaysInAYear(int days){
 		return days % 400 == 0 || (days % 4 == 0 && days % 100 != 0);
