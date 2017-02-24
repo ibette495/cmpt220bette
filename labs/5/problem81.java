@@ -41,6 +41,7 @@ public class problem81 {
 			for (int n = 0; n < matrix[m].length; n++) {
 				System.out.printf("%d", matrix[m][n]);
 			}
+			System.out.println();
 		}
 		System.out.println("The largest row index is: " + largestRow);
 		

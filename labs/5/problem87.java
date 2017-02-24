@@ -29,7 +29,7 @@ public class problem87 {
 			}
 		}
 
-		System.out.println("The two closest points are (" + points[p1][0] + ", " + points[p1][1] + ") and (" +points[p2][0] + ", " + points[p2][1] + ")");
+		System.out.println("The two closest points are (" + points[p1][0] + ", " + points[p1][1] + ", " + points[p1][2] + ") and (" +points[p2][0] + ", " + points[p2][1] + ", " + points[p2][2] + ")");
 	}
 
 	public static double pointDistance(

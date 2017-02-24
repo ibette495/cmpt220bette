@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class problem714 {
-	static final int SIZE = 2;
+	static final int SIZE = 5;
 
 	public static void main(String[] args) {
 		
