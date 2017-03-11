@@ -1,4 +1,5 @@
-
+// JA: Always add comments to your code
+// JA: Where is the test class to test this?
 	class LinearEquation {
 		private double a;
 		private double b;

@@ -1,4 +1,7 @@
 import java.util.Date;
+
+// JA: Always add comments to your code
+// JA: I could not find the test class to test this
 class Account{
 			private int id;
 			private double balance;
@@ -44,7 +47,7 @@ class Account{
 		public void withdraw(double amount){
 			balance = balance - amount;
 		}
-		public void deposit(int x){
+		public void deposit(int x){ // JA: ?
 			
 		}
 }
