@@ -1,3 +1,4 @@
+// JA: You missed the overlap method.
 class Circle2D {
 	
 	double x;
@@ -27,11 +28,11 @@ class Circle2D {
 	}
 	
 	public double getArea() {
-		return PI*radius*radius;
+		return Math.PI*radius*radius; // JA: This is more precise
 	}
 	
 	public double getPerimeter() {
-		return 2*PI*radius;
+		return 2*Math.PI*radius;  // JA: This is more precise
 	}
 	
 	public double getDistance(double otherX, double otherY) {

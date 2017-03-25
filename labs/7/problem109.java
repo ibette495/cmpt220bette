@@ -34,7 +34,7 @@ public class problem109 {
 	}
 }
 
-public class Course {
+class Course {
 	private String courseName;
 	
 	private String[] students = new String[100];

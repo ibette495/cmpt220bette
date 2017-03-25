@@ -18,7 +18,7 @@ public class test1011 {
 				System.out.println("circle, p1 Contains circle, p2: "
 						+p1.contains(p2));
 				
-				Circle2D p3 = new Circle2D(3,5,3.5);
+				Circle2D p3 = new Circle2D(3,5,2.3);
 				
 				System.out.println("circle, p3 overlaps with circle, p3: "
 						+p1.contains(p3));
