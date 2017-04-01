@@ -18,7 +18,7 @@ public class problem1117 {
 		int smallestNum = 1;
 		
 		for(int x = 0; x<integerFactors.size();x++) {
-			smallestNum = smallestNum * integerFactors.get(x);
+			smallestNum = smallestNum * (int)integerFactors.get(x); // JA
 		}
 		
 		System.out.println("The smallest number n for m *n to be a perfect square is "+ smallestNum);
@@ -44,7 +44,7 @@ public class problem1117 {
 		
 			for(int i = x+1; i<list.size(); i++) {
 			
-				if(list.get(i ) == list.get(i)) {
+				if(list.get(i ) == list.get(i)) { // JA: list.get(i+1) ?
 					list.remove(i);
 					list.remove(x);
 				}

@@ -23,6 +23,8 @@ public class problem1113 {
 		}
 	}
 	
+	// JA: A better strategy is to recreate the arraylist without the duplicates
+	// JA: The logic below doesn't remove more than two duplicates in sequence
 	public static void removeDuplicate(ArrayList list) {
 		
 		for (int x = 0; x<list.size()-1;x++) {

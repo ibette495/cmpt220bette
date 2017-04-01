@@ -2,9 +2,9 @@ import java.util.ArrayList;
 public class CourseTest {
 
 	public static void main(String[] args) {
-		Course c1 = new Course ("Software Devepolment1");
+		Course1 c1 = new Course1 ("Software Devepolment1"); // JA
 		
-		Course c2 = new Course ("Software Devepolment2");
+		Course1 c2 = new Course1 ("Software Devepolment2"); // JA
 		
 		c1.addStudent("Ian Bette");
 		c1.addStudent("Kyle Berkowitz");

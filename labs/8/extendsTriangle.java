@@ -48,12 +48,12 @@ public class extendsTriangle {
 	
 	private String isFilled() {
 		// TODO Auto-generated method stub
-		return null;
+		return null; // JA: ?
 	}
 
 	private String getColor() {
 		// TODO Auto-generated method stub
-		return null;
+		return null; // JA: ?
 	}
 
 	private void setFill(boolean fill) {

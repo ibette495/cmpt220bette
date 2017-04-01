@@ -33,7 +33,7 @@ public class problem1111 {
 			
 			for(int i = x+1; i<list.size()-1; i++) {
 				
-				if(list.get(x)>list.get(i)) {
+				if(list.get(x)>list.get(i)) { // JA: Instead of x, you should use i-1
 					temp=list.get(x);
 					list.set(x, list.get(i));
 					list.set(i, temp);
