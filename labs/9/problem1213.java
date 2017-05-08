@@ -1,4 +1,4 @@
 
-public class problem1213 {
+public class Problem1213 {
 
 }
